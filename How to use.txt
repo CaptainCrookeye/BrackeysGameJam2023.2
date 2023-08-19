@@ -1,0 +1,2 @@
+Don't make changes to main branch, always select your branch before opening project. If you make changes to main, discard them.
+Only make changes to your branch, after you're done, merge it with main. After you're done working, merge all branches with main.
