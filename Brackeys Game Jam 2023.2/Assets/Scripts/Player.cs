@@ -38,10 +38,12 @@ public class Player : MonoBehaviour
             walking = true;
             right = false;
             left = true;
+            gameObject.transform.localScale = new Vector3(-3,3,3);
         }
         if (Input.GetKeyUp(KeyCode.A))
         {
             walking = false;
+            gameObject.transform.localScale = new Vector3(3, 3, 3);
         }
         if (health==0)
         {
