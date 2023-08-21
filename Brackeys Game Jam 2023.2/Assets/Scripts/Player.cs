@@ -53,6 +53,7 @@ public class Player : MonoBehaviour
         if (collision.gameObject.tag == "Wall")
         {
             health--;
+            FindObjectOfType<Audio_manager>().play("hit");
             Debug.Log(health);
         }
         else
